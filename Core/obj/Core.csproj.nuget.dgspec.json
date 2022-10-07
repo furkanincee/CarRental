@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\Core\\Core.csproj": {}
+    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",

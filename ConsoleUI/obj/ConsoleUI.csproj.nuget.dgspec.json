@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
