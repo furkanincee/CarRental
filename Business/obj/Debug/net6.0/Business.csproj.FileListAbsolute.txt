@@ -17,3 +17,11 @@ C:\Users\furka\OneDrive\Masaüstü\ReCapProject\Business\obj\Debug\net6.0\Busine
 C:\Users\furka\OneDrive\Masaüstü\ReCapProject\Business\obj\Debug\net6.0\refint\Business.dll
 C:\Users\furka\OneDrive\Masaüstü\ReCapProject\Business\obj\Debug\net6.0\Business.pdb
 C:\Users\furka\OneDrive\Masaüstü\ReCapProject\Business\obj\Debug\net6.0\ref\Business.dll
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.dll
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\furka\OneDrive\Masaüstü\CarRental\Business\obj\Debug\net6.0\Business.pdb
