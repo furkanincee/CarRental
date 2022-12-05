@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

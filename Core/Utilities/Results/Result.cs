@@ -17,7 +17,7 @@ namespace Core.Utilities.Results
         public bool Success { get;}
 
         public string Message { get; }
-        public Result(bool success, string message):this(success) // Bu şekilde kullandığımızda aşağıdaki ctor da çalışacak. this(success) diyerek bu classın tek parametreli halini de çalıştırmış oluyoruz.
+        public Result(bool success, string message):this(success) // Bu şekilde kullandığımızda aşağıdaki ctor da çalışacak. this(success) diyerek bu classın tek parametreli halini de çalıştırmış oluyoruz. Success = success'i iki kere yazmamak için bu şekilde kullandı.
         {         
             Message = message;
         }

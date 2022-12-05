@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj": {}
+    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj": {
+    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Core\\obj\\",
+        "outputPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

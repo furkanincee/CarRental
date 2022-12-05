@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p96ZecRTM5vSCHpnprZTPl1eyC4QfX69Q3CNmZLJBJ+bFT8Mv2XsjmvKY4fgIsT9Jq5GSNFQQDXtdbSH6wRDhA==",
+  "dgSpecHash": "zHSLT029eUtEu0FP8LWgGfyjuDdgvv12e7Z04E2MpUqL+cJIMJiixKpQ78afvU7SUBVYTyD24C9x6aOiXRcJpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\CarRental\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
