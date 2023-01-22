@@ -404,3 +404,8 @@ FodyWeavers.xsd
 /Business/obj/Debug/net6.0/Business.dll
 /Business/obj/Debug/net6.0/refint/Business.dll
 /WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache
+/Business/obj/Release/net6.0/Business.assets.cache
+/Business/obj/Debug/net6.0/Business.assets.cache
+/Business/obj/Debug/net6.0/Business.csproj.AssemblyReference.cache
+/Business/obj/Release/net6.0/Business.csproj.AssemblyReference.cache
+/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache
