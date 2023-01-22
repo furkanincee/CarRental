@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj": {}
+    "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj": {
+    "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\Core\\obj\\",
+        "outputPath": "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"

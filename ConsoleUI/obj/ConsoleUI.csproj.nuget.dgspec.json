@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\furka\\source\\repos\\furkanincee\\CarRental\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\furka\\Source\\Repos\\furkanincee\\CarRental\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",

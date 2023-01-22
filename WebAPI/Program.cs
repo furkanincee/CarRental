@@ -22,8 +22,8 @@ namespace WebAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
-            builder.Services.AddSingleton<ICarService, CarManager>(); // Tüm bellekte bir tane car manager oluþturur ve ctor içinde her ICarService çaðrýldýðýnda o bellekteki car manageri verir. Böylece sürekli yeni yeni örnekler oluþturmaktan kaçýnmýþ oluruz.
-            builder.Services.AddSingleton<ICarDal, EfCarDal>();
+            //builder.Services.AddSingleton<ICarService, CarManager>(); // Tüm bellekte bir tane car manager oluþturur ve ctor içinde her ICarService çaðrýldýðýnda o bellekteki car manageri verir. Böylece sürekli yeni yeni örnekler oluþturmaktan kaçýnmýþ oluruz.
+            //builder.Services.AddSingleton<ICarDal, EfCarDal>();
             // Singletonýn mantýðý buydu
             // IoC konteynerý kullandýk iyi hoþ fakat þöyle bir dezavantaj var, burasý þimdi apinin program.csi ama baþka projeler eklediðimizde bunlarý yeniden yapmamýz gerekecek. Bunun önüne geçmek için de business'e Autofac kurduk.
             // Burada yaptýðýmýz eklemeleri benzer bir þekilde AutofacBusinessModule'de yaptýk incelemek için oraya git.
