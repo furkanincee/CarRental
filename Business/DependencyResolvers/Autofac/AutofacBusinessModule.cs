@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Business.DependencyResolvers.Autofac
 {
-    public class AutofacBusinessModule : Module // using eklerken Autofac ekle dikkat et ona bir de reflection diye bir şey öneriyor.
+    public class AutofacBusinessModule : Module // using eklerken Autofac ekle dikkat et ona bir de reflection diye bir şey öneriyor visual studio.
     {
         // Burada sadece bu proje ile alakalı ayarlar yapılacak. Bir de core katmanında yapılan configürasyonlar var. Orada da genel her projede kullanılacak şeyler eklenir.
         protected override void Load(ContainerBuilder builder)
@@ -25,9 +25,9 @@ namespace Business.DependencyResolvers.Autofac
             // Bunları ekledikten sonra bir yerde programa tanıtılması lazım ki kendi IoC yapılanmasını değil bunu kullansın
 
 
-            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly(); // Çalışan şeyleri al
 
-            builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
+            builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces() // Implemente edilmiş interfaceleri bul ve onlar için AspectInterceptorSelector örnekle
                 .EnableInterfaceInterceptors(new ProxyGenerationOptions()
                 {
                     Selector = new AspectInterceptorSelector()

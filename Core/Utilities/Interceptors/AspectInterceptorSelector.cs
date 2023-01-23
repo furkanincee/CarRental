@@ -13,9 +13,8 @@ namespace Core.Utilities.Interceptors
         public IInterceptor[] SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors)
         {
             var classAttributes = type.GetCustomAttributes<MethodInterceptionBaseAttribute>
-                (true).ToList();
-            var methodAttributes = type.GetMethod(method.Name)
-                .GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
+                (true).ToList(); // sınıflar için attribute listesini alıyor
+            var methodAttributes = type.GetMethod(method.Name).GetCustomAttributes<MethodInterceptionBaseAttribute>(true); // metotlar için attribute listesini alıyor
             classAttributes.AddRange(methodAttributes);
           //  classAttributes.Add(new ExceptionLogAspect(typeof(FileLogger))); // Otomatik olarak sistemdeki bütün metotları loga dahil eder. Loglama altyapısı şu an hazır olmadığı için commente aldım
 

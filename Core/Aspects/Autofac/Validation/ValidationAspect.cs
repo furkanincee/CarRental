@@ -13,7 +13,7 @@ namespace Core.Aspects.Autofac.Validation
     public class ValidationAspect : MethodInterception
     {
         private Type _validatorType;
-        public ValidationAspect(Type validatorType)
+        public ValidationAspect(Type validatorType) // attributelarda Type olarak geçmek gerekiyormuş
         {
             if (!typeof(IValidator).IsAssignableFrom(validatorType))
             {
@@ -22,12 +22,12 @@ namespace Core.Aspects.Autofac.Validation
 
             _validatorType = validatorType;
         }
-        protected override void OnBefore(IInvocation invocation)
+        protected override void OnBefore(IInvocation invocation) // Validasyon metot çalışmadan önce yapılsın istediğimiz için MethodInterception'dan override ettik. Sonra olsun falan istersek ona göre override yapmalıyız. 
         {
             var validator = (IValidator)Activator.CreateInstance(_validatorType); // Reflection çalışma anında bir şeyler yapmamızı sağlar. CreateInstance sayesinde buraya gelen validatorun bir instance'ı oluşturulur
             var entityType = _validatorType.BaseType.GetGenericArguments()[0]; // Gelen validatorun basetypını bul (AbstractValidator), ve onun generic argümanlarından ilkini getir (yani çalıştığı veri tipini getirecek)
             var entities = invocation.Arguments.Where(t => t.GetType() == entityType); // Invocation metot demek, burada attribute'nin çalıştığı metodun parametrelerini alıyor ve validatorun tipine eşit olanı getir diyoruz.
-            foreach (var entity in entities)
+            foreach (var entity in entities)    
             {
                 ValidationTool.Validate(validator, entity); // Validation toolu kullanarak da hepsini doğruluyor.
             }
